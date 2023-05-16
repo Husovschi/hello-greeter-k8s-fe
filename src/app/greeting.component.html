@@ -1,0 +1,7 @@
+<h1>{{ greeting }}</h1>
+<h2>Environment Variables:</h2>
+<ul>
+  <li *ngFor="let envVar of environmentVars">
+    {{ envVar.key }}: {{ envVar.value }}
+  </li>
+</ul>
